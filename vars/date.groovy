@@ -1,7 +1,8 @@
 #!groovy
 
-def ourDateStamp (format)
+def ourDateStamp(format)
 {
-	def date = new Date()
-	return date.format(format)	
+	println(format)
+// 	def date = new Date()
+// 	return date.format(format)	
 }
